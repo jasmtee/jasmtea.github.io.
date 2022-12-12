@@ -172,9 +172,11 @@ article#left-col{
 /*table*/
 table,td,th,tr{
     text-align: center;
+    padding:10px;
+}
+td,th,tr{
     border: 2px solid #5e62b8 ;
     border-radius: 25px;
-    padding:10px;
 }
 table{
     margin-left: auto;
