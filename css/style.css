@@ -173,7 +173,7 @@ article#left-col{
 table,td,th,tr{
     text-align: center;
     border: 2px solid #5e62b8 ;
-    border-radius: 10px;
+    border-radius: 25px;
     padding:10px;
 }
 table{
