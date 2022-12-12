@@ -184,6 +184,7 @@ table{
 tr:nth-child(1){
     background-color: rgba(218, 205, 187, 0.659);
 }
+tr:hover {background-color:rgba(135, 127, 208, 0.26);}
 
 .center{
     display:block;
