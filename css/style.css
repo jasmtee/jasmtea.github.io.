@@ -181,6 +181,9 @@ table{
     margin-right: auto;
     margin-top: 20px;
 }
+tr:nth-child(1){
+    background-color: rgba(218, 205, 187, 0.659);
+}
 
 .center{
     display:block;
