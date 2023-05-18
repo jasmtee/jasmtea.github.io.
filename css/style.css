@@ -152,12 +152,13 @@ header a:hover{
     padding:40px;
 }
 footer{
+    text-decoration: none;    
     padding:10px;
     margin-top:20px;
     color:#ffffff;
     background-color:#5e62b8;
     text-align: center;
-    text-decoration: none;
+
 }
  
 /*sidebar*/
