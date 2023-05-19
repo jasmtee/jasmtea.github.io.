@@ -1,9 +1,19 @@
+<!DOCTYPE html>
 <html>
+<head>
     <link rel="stylesheet" href="./../css/style2.css">
+    <script>
+        function changeGif() {
+            var gifElement = document.getElementById("mangaGif");
+            gifElement.src = "./../images/an.gif";
+        }
+    </script>
+</head>
+<body>
     <header>
         <div class="container">
             <div id="branding">
-             <h1><img src="./../images/logo.png" height="50" width="50" style="float:left">JASM<span class="highlight">TEA</span></h1>
+                <h1><img src="./../images/logo.png" height="50" width="50" style="float:left">JASM<span class="highlight">TEA</span></h1>
             </div>
             <nav>
                 <ul>
@@ -14,10 +24,36 @@
             </nav>
         </div>
     </header>
-    <body>
-        <img src="./../images/poop.png" >
-    </body>
+
+    <section id="main">
+        <div class="container">
+            <h2>Welcome to the "Manga I Read" Website!</h2>
+            <p>Discover and explore exciting manga series that have captivated readers worldwide.</p>
+            <button onclick="changeGif()">Click to See a Manga GIF</button>
+            <img id="mangaGif" src="./../images/placeholder.gif">
+            <h3>Featured Manga Series</h3>
+            <div>
+                <h4>A Sign of Affection</h4>
+                <p>"A Sign of Affection" is a heartwarming manga that follows the story of Yuki, a college student who is hearing impaired, and Itsuomi, a fellow student who takes an interest in her. Together, they navigate the challenges of communication and develop a deep bond.</p>
+                <img src="./../images/yubisaki.jpg" alt="A Sign of Affection">
+            </div>
+            <div>
+                <h4>Spy x Family</h4>
+                <p>"Spy x Family" is an action-packed manga with a twist. It revolves around a spy named Twilight, who is tasked with a mission to infiltrate an elite school. To maintain his cover, he adopts a young girl named Anya and pretends to be a father. Little does he know that Anya is a telepath, and their lives become intertwined with a skilled assassin and a secret agent.</p>
+                <img src="./../images/anya.jpg" alt="Spy x Family">
+            </div>
+            <div>
+                <h4>Yamada-kun to Lv999 no Koi wo Suru</h4>
+                <p>"Yamada-kun to Lv999 no Koi wo Suru" is a romantic comedy manga set in a virtual reality MMORPG world. The story revolves around Yamada, an average gamer who accidentally confesses his love to a top-level player named Sera. Despite their vast level difference, they embark on a journey together, forming a unique and heartwarming bond.</p>
+                <img src="./../images/akane.jpg" alt="Yamada-kun to Lv999 no Koi wo Suru">
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>jasmtea copyright &copy;</p>
+        <div class="container">
+            <p>&copy; 2023 Jasmtea. All rights reserved.</p>
+        </div>
     </footer>
+</body>
 </html>
