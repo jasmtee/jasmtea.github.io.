@@ -2,12 +2,29 @@
 <html>
 <head>
     <link rel="stylesheet" href="./../css/style2.css">
-    <script>
-        function changeGif() {
-            var gifElement = document.getElementById("mangaGif");
-            gifElement.src = "./../images/an.gif";
+    <style>
+        /* CSS to center the images */
+        img {
+            display: block;
+            margin: 0 auto;
         }
-    </script>
+
+        /* CSS for the manga list */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li{
+            flex-basis: 30%;
+            padding: 10px;
+    
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,7 +34,7 @@
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="page1.html">this site</a></li>
+                    <li class="current"><a href="page1.html">manga</a></li>
                     <li><a href="page2.html">drawing game</a></li>
                     <li><a href="./../index.html">main</a></li>
                 </ul>
@@ -27,26 +44,26 @@
 
     <section id="main">
         <div class="container">
-            <h2>Welcome to the "Manga I Read" Website!</h2>
-            <p>Discover and explore exciting manga series that have captivated readers worldwide.</p>
-            <button onclick="changeGif()">Click to See a Manga GIF</button>
-            <img id="mangaGif" src="./../images/placeholder.gif">
+            <h2>manga i read</h2>
+            <img src="./../images/an.gif" id="mangaGif">
             <h3>Featured Manga Series</h3>
-            <div>
-                <h4>A Sign of Affection</h4>
-                <p>"A Sign of Affection" is a heartwarming manga that follows the story of Yuki, a college student who is hearing impaired, and Itsuomi, a fellow student who takes an interest in her. Together, they navigate the challenges of communication and develop a deep bond.</p>
-                <img src="./../images/yubisaki.jpg" alt="A Sign of Affection">
-            </div>
-            <div>
-                <h4>Spy x Family</h4>
-                <p>"Spy x Family" is an action-packed manga with a twist. It revolves around a spy named Twilight, who is tasked with a mission to infiltrate an elite school. To maintain his cover, he adopts a young girl named Anya and pretends to be a father. Little does he know that Anya is a telepath, and their lives become intertwined with a skilled assassin and a secret agent.</p>
-                <img src="./../images/anya.jpg" alt="Spy x Family">
-            </div>
-            <div>
-                <h4>Yamada-kun to Lv999 no Koi wo Suru</h4>
-                <p>"Yamada-kun to Lv999 no Koi wo Suru" is a romantic comedy manga set in a virtual reality MMORPG world. The story revolves around Yamada, an average gamer who accidentally confesses his love to a top-level player named Sera. Despite their vast level difference, they embark on a journey together, forming a unique and heartwarming bond.</p>
-                <img src="./../images/akane.jpg" alt="Yamada-kun to Lv999 no Koi wo Suru">
-            </div>
+            <ul>
+                <li>
+                    <h4>A Sign of Affection</h4>
+                    <p>"A Sign of Affection" is a heartwarming manga that follows the story of Yuki, a college student who is hearing impaired, and Itsuomi, a fellow student who takes an interest in her. Together, they navigate the challenges of communication and develop a deep bond.</p>
+                    <img src="./../images/yubisaki.jpg" alt="A Sign of Affection" height="250px">
+                </li>
+                <li>
+                    <h4>Spy x Family</h4>
+                    <p>"Spy x Family" is an action-packed manga with a twist. It revolves around a spy named Twilight, who is tasked with a mission to infiltrate an elite school. To maintain his cover, he adopts a young girl named Anya and pretends to be a father. Little does he know that Anya is a telepath, and their lives become intertwined with a skilled assassin and a secret agent.</p>
+                    <img src="./../images/anya.jpg" alt="Spy x Family" height="250px">
+                </li>
+                <li>
+                    <h4>Yamada-kun to Lv999 no Koi wo Suru</h4>
+                    <p>"Yamada-kun to Lv999 no Koi wo Suru" The story follows the daily life of college student Akane Kinoshita, who after getting dumped by her ex-boyfriend, gets closer with the members of the guild in the game she's playing, especially the emotionless, high school student Akito Yamada.</p>
+                    <img src="./../images/akane.jpg" alt="Yamada-kun to Lv999 no Koi wo Suru" height="250px">
+                </li>
+            </ul>
         </div>
     </section>
 
